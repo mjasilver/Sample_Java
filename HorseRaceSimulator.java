@@ -94,9 +94,9 @@ if(!dateAnalysisArray[3].equals("datereformat") && !dateAnalysisArray[3].equals(
     
     
     System.out.println("got here");
-//   String raceTimeFile = "d:\\Equibase\\raceTimeEstimates.txt";
+//   String raceTimeFile = "d:\\racedata\\raceTimeEstimates.txt";
     String raceTimeFile = "c:\\Users\\User\\Desktop\\racePredictionsTodayOnly.txt";
-//   String raceTimeFile = "d:\\Equibase\\raceTimeEstimatesTrial.txt";
+//   String raceTimeFile = "d:\\racedata\\raceTimeEstimatesTrial.txt";
     Scanner raceTimeScanner = new Scanner(new File(raceTimeFile));
 
     raceCount=0;
